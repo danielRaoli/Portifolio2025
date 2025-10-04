@@ -49,7 +49,7 @@ function App() {
 
             <div className="profile-description">
               <p>
-                Além de viciado em música e jogos online sou Graduado em Análise e desenvolvimento de sistemas e desde 2022 atuo como desenvolvedor Web. 
+                Graduado em Análise e desenvolvimento de sistemas e desde 2022 atuo como desenvolvedor Web. 
                 Tenho experiência com JavaScript, TypeScript e C#, utilizando frameworks como Next.js e .NET, além de trabalhar 
                 também com NodeJS. Meu foco é principalmente Desenvolver soluções que sejam realmente eficientes, to sempre buscando algum projeto novo
                 e indo atrás das novas tecnologias e metodologias pra desenvolve-lo. a busca pela evolução e a curiosidade é sempre a minha principal motivação
@@ -171,9 +171,9 @@ function App() {
                   Bot de automação para funil de vendas pelo telegram
                   com diversas ferramentas de marketing.
                   para testar utilize as credenciais:
-                  contateste@gmail.com - teste123 <br /> Teste o Bot <br />
-                  <a href="https://web.telegram.org/a/#8320397095" target="_blank"  >
-                    https://web.telegram.org/a/#8320397095
+                  contateste@gmail.com - teste123 <br />
+                  <a href="https://t.me/Teste_Funnel_Bot" target="_blank"  >
+                    VISITE O BOT
                   </a>
                 </p>
                 <div className="project-technologies">
@@ -209,6 +209,11 @@ function App() {
                 </div>
               </div>
             </div>
+
+
+            
+
+            
 
             <div className="project-card">
               <div className="project-image">
