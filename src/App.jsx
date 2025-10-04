@@ -2,6 +2,9 @@ import './App.css'
 import menuImage from './assets/menu.png'
 import funnelImage from './assets/funnel.png'
 import fretamentoImage from './assets/fretamento.png'
+import adminMenu from './assets/admin-menu.png'
+
+
 
 function App() {
   return (
@@ -18,7 +21,7 @@ function App() {
           </div>
 
           <div className="profile-info">
-            <h1 className="profile-name">Seu Nome</h1>
+            <h1 className="profile-name">Daniel Raoli</h1>
             <h2 className="profile-title">Desenvolvedor Full Stack</h2>
 
             <div className="social-links">
@@ -46,12 +49,11 @@ function App() {
 
             <div className="profile-description">
               <p>
-                Desenvolvedor apaixonado por tecnologia com experiência em React, Node.js e outras tecnologias modernas.
-                Sempre em busca de novos desafios e oportunidades para criar soluções inovadoras.
-              </p>
-              <p>
-                Especializado em desenvolvimento web full-stack, com foco em criar experiências de usuário excepcionais
-                e código limpo e eficiente.
+                Além de viciado em música e jogos online sou Graduado em Análise e desenvolvimento de sistemas e desde 2022 atuo como desenvolvedor Web. 
+                Tenho experiência com JavaScript, TypeScript e C#, utilizando frameworks como Next.js e .NET, além de trabalhar 
+                também com NodeJS. Meu foco é principalmente Desenvolver soluções que sejam realmente eficientes, to sempre buscando algum projeto novo
+                e indo atrás das novas tecnologias e metodologias pra desenvolve-lo. a busca pela evolução e a curiosidade é sempre a minha principal motivação
+                nesse meio.
               </p>
             </div>
           </div>
@@ -101,11 +103,59 @@ function App() {
                   </span>
                 </div>
                 <div className="project-links">
-                  <a href="https://github.com/seuusuario/projeto1" target="_blank" rel="noopener noreferrer" className="project-link">
+                  <a href="https://github.com/danielRaoli/cardapio-restaurante" target="_blank" rel="noopener noreferrer" className="project-link">
                     GitHub
                   </a>
-                  <a href="https://menu-eta-two.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-link">
-                    Demo
+                  <a href="https://menu-digital-demo-fmbx.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-link">
+                    Testar WebApp
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="project-card">
+              <div className="project-image">
+                <img src={adminMenu} alt="Projeto 1" />
+              </div>
+              <div className="project-content">
+                <h3 className="project-title">Admin Menu Digital</h3>
+                <p className="project-description">
+                  Administração para Cardapio digital de restaurantes.
+                  para testar utilizar essas credenciais:
+                  admin - senha:  senha123
+                </p>
+                <div className="project-technologies">
+                  <span className="tech-tag">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
+                    React
+                  </span>
+                  <span className="tech-tag">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M3 3h18v18H3V3zm16 16V5H5v14h14zM8 8h8v2H8V8zm0 4h8v2H8v-2zm0 4h5v2H8v-2z" />
+                    </svg>
+                    Next.Js
+                  </span>
+                  <span className="tech-tag">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M3 3h18v18H3V3zm16 16V5H5v14h14zM8 8h8v2H8V8zm0 4h8v2H8v-2zm0 4h5v2H8v-2z" />
+                    </svg>
+                    Postgresql
+                  </span>
+                  <span className="tech-tag">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M3 3h18v18H3V3zm16 16V5H5v14h14zM8 8h8v2H8V8zm0 4h8v2H8v-2zm0 4h5v2H8v-2z" />
+                    </svg>
+                    .NET - c#
+                  </span>
+                </div>
+                <div className="project-links">
+                  <a href="https://github.com/danielRaoli/menu-digital-admin" target="_blank" rel="noopener noreferrer" className="project-link">
+                    GitHub
+                  </a>
+                  <a href="https://menu-digital-admin-rho.vercel.app/login" target="_blank" rel="noopener noreferrer" className="project-link">
+                    Testar WebApp
                   </a>
                 </div>
               </div>
@@ -119,9 +169,12 @@ function App() {
                 <h3 className="project-title">Funnel Bot</h3>
                 <p className="project-description">
                   Bot de automação para funil de vendas pelo telegram
-                  com diversas ferramentas de marketing, configure remarketing downsells e upsells.
+                  com diversas ferramentas de marketing.
                   para testar utilize as credenciais:
-                  contateste@gmail.com - teste123
+                  contateste@gmail.com - teste123 <br /> Teste o Bot <br />
+                  <a href="https://web.telegram.org/a/#8320397095" target="_blank"  >
+                    https://web.telegram.org/a/#8320397095
+                  </a>
                 </p>
                 <div className="project-technologies">
                   <span className="tech-tag">
@@ -150,11 +203,8 @@ function App() {
                   </span>
                 </div>
                 <div className="project-links">
-                  <a href="https://github.com/seuusuario/projeto2" target="_blank" rel="noopener noreferrer" className="project-link">
-                    GitHub
-                  </a>
                   <a href="https://www.funnelbot.fun/" target="_blank" rel="noopener noreferrer" className="project-link">
-                    Demo
+                    Testar WebApp
                   </a>
                 </div>
               </div>
@@ -170,7 +220,7 @@ function App() {
                   Registro de frotas, motoristas, clientes e funcionários
                   Controle de manutenção e documentos dos veículos
                   Registro e gerenciamento de viagens e passagens
-      
+                  conta teste: admin - senha:  senha123
                 </p>
                 <div className="project-technologies">
                   <span className="tech-tag">
@@ -199,11 +249,8 @@ function App() {
                   </span>
                 </div>
                 <div className="project-links">
-                  <a href="https://github.com/seuusuario/projeto3" target="_blank" rel="noopener noreferrer" className="project-link">
-                    GitHub
-                  </a>
-                  <a href="https://projeto3.exemplo.com" target="_blank" rel="noopener noreferrer" className="project-link">
-                    Demo
+                  <a href="https://infofretamento-front-demo.vercel.app/login" target="_blank" rel="noopener noreferrer" className="project-link">
+                    Testar WebApp
                   </a>
                 </div>
               </div>
